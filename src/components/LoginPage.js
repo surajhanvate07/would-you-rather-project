@@ -3,7 +3,7 @@ import { Card, Image, Divider, Dropdown, Button } from "semantic-ui-react";
 import { setAuthedUser } from "../actions/authedUser";
 import { connect } from "react-redux";
 import { Redirect } from "react-router-dom";
-var logo = require("../assets/icons/React-Redux.jpeg");
+var logo = require("../assets/images/logo.jpeg");
 
 class LoginPage extends Component {
   state = {
@@ -46,7 +46,7 @@ class LoginPage extends Component {
                 justifyContent: "center",
                 alignContent: "center",
                 textAlign: "center",
-                background: "#f1f1f1"
+                background: "#8ec8e2"
               }}
             >
               <Card.Content
@@ -74,7 +74,7 @@ class LoginPage extends Component {
               <p
                 style={{
                   textAlign: "center",
-                  color: "#00b5ad",
+                  color: "blue",
                   fontSize: "18px",
                   fontWeight: "bold"
                 }}

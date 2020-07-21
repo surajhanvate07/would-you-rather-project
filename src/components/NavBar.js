@@ -3,7 +3,7 @@ import { Menu, Image, Dropdown, Icon } from "semantic-ui-react";
 import { NavLink, withRouter } from "react-router-dom";
 import { connect } from "react-redux";
 import { signOut } from "../actions/authedUser";
-var logo = require("../assets/icons/React-Redux.jpeg");
+var logo = require("../assets/images/logo.jpeg");
 
 class NavBar extends Component {
   handleSignout = (e, { name }) => {
