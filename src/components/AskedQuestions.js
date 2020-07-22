@@ -43,7 +43,7 @@ class AskedQuestions extends Component {
                 <Button
                   fluid
                   basic
-                  color="dark blue"
+                  color="brown"
                   style={{ height: 30, fontSize: 12 }}
                   onClick={this.handleViewPoll}
                 >

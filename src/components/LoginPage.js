@@ -46,7 +46,7 @@ class LoginPage extends Component {
                 justifyContent: "center",
                 alignContent: "center",
                 textAlign: "center",
-                background: "#8ec8e2"
+                background: "violet"
               }}
             >
               <Card.Content

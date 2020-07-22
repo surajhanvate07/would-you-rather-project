@@ -43,7 +43,7 @@ class NavBar extends Component {
       <div>
         <div className="nav-desktop">
           <Menu stackable pointing secondary>
-            <Menu.Item as={NavLink} name="home" exact to="/" color="sky blue">
+            <Menu.Item as={NavLink} name="home" exact to="/" color="purple">
               Home
             </Menu.Item>
             <Menu.Item
@@ -51,7 +51,7 @@ class NavBar extends Component {
               name="newQuestion"
               exact
               to="/add"
-              color="sky blue"
+              color="purple"
             >
               New Question
             </Menu.Item>
@@ -60,7 +60,7 @@ class NavBar extends Component {
               name="leaderBoard"
               exact
               to="/leaderboard"
-              color="sky blue"
+              color="purple"
             >
               Leader Board
             </Menu.Item>
@@ -77,7 +77,7 @@ class NavBar extends Component {
                   name="Signout"
                   exact
                   to="/login"
-                  color="sky blue"
+                  color="purple"
                   onClick={this.handleDropdownSignoutClick}
                 >
                   Sign Out

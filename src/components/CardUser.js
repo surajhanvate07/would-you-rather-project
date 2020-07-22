@@ -7,7 +7,7 @@ class CardUser extends Component {
     return (
       <div className="leaderboard-card-container">
         <Card fluid raised style={{ height: "140px" }}>
-          <Label corner="left" icon="trophy" style={{ color: "teel" }} />
+          <Label corner="left" icon="trophy" style={{ color: "teal" }} />
           <Card.Content className="leaderboard-card-content">
             <div
               style={{

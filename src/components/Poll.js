@@ -235,7 +235,7 @@ class Poll extends Component {
                               total={totalVotes}
                               progress="percent"
                               precision={1}
-                              color="light green"
+                              color="green"
                               style={{
                                 marginBottom: 0,
                                 marginTop: "25px",
@@ -289,7 +289,7 @@ class Poll extends Component {
                               value={optionTwoVotes}
                               total={totalVotes}
                               progress="percent"
-                              color="light green"
+                              color="green"
                               precision={1}
                               style={{
                                 marginBottom: 0,

@@ -3,7 +3,7 @@ import React from "react";
 const Error = () => {
   return (
     <div>
-      <div className="page-404" style={{ textAlign: "center" }}>
+      <div style={{ textAlign: "center" }}>
         <p>404</p>
         <small style={{ fontSize: 16, fontWeight: 200, lineHeight: "30px" }}>
           Sorry, the page or question you're looking for doesn't exist.
