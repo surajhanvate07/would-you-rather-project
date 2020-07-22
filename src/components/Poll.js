@@ -143,6 +143,7 @@ class Poll extends Component {
                     <Button
                       fluid
                       color="green"
+                      disabled={!this.state.selectedCheckbox}
                       style={{
                         justifyContent: "center",
                         marginTop: "20px",
